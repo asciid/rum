@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "Enter the man page name and group (uname 1): "
+read page group
+cp /usr/share/man/man$group/$page.$group.gz .
+gunzip $page.$group.gz
+po4a-gettextize -f man -m $page.$group -p $page.$group.po
+
+echo "Done!"

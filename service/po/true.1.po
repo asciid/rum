@@ -1,0 +1,189 @@
+# Copyright (C) 2020 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# null, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-11 17:45+0300\n"
+"PO-Revision-Date: 2020-01-11 17:51+0300\n"
+"Last-Translator: null\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#. type: TH
+#: true.1:2
+#, no-wrap
+msgid "TRUE"
+msgstr "TRUE"
+
+#. type: TH
+#: true.1:2
+#, no-wrap
+msgid "September 2019"
+msgstr "Сентябрь 2019"
+
+#. type: TH
+#: true.1:2
+#, no-wrap
+msgid "GNU coreutils 8.30"
+msgstr "GNU coreutils 8.30"
+
+#. type: TH
+#: true.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "Команды пользователей"
+
+#. type: SH
+#: true.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "НАЗВАНИЕ"
+
+#. type: Plain text
+#: true.1:5
+msgid "true - do nothing, successfully"
+msgstr "true - успешно ничего не делает"
+
+#. type: SH
+#: true.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОБЗОР"
+
+#. type: Plain text
+#: true.1:8
+msgid "B<true> [I<\\,ignored command line arguments\\/>]"
+msgstr "B<true> [I<\\,игнорируемые аргументы\\/>]"
+
+#. type: Plain text
+#: true.1:11
+msgid "B<true> I<\\,OPTION\\/>"
+msgstr "B<true> I<\\,ПАРАМЕТР\\/>"
+
+#. type: SH
+#: true.1:11
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+#. type: Plain text
+#: true.1:15
+msgid "Exit with a status code indicating success."
+msgstr "Выполнение с успешным кодом завершения."
+
+#. type: TP
+#: true.1:15
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: true.1:18
+msgid "display this help and exit"
+msgstr "вывод этого сообщения и выход"
+
+#. type: TP
+#: true.1:18
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: true.1:21
+msgid "output version information and exit"
+msgstr "вывод информации о версии и выход"
+
+#. type: Plain text
+#: true.1:25
+msgid ""
+"NOTE: your shell may have its own version of true, which usually supersedes "
+"the version described here.  Please refer to your shell's documentation for "
+"details about the options it supports."
+msgstr ""
+"ВНИМАНИЕ: в вашу оболочку командной строки может быть встроена своя версия"
+" true, обычно заменяющая описанную здесь. Обратитесь к документации вашей"
+" оболочки за информацией о поддерживаемых её параметрах."
+
+#. type: SH
+#: true.1:25
+#, no-wrap
+msgid "AUTHOR"
+msgstr "АВТОР"
+
+#. type: Plain text
+#: true.1:27
+msgid "Written by Jim Meyering."
+msgstr "Написано Jim Meyering"
+
+#. type: SH
+#: true.1:27
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "СООБЩЕНИЕ ОБ ОШИБКАХ"
+
+#. type: Plain text
+#: true.1:29
+msgid ""
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"Онлайн-помощь GNU coreutils: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: true.1:31
+msgid ""
+"Report true translation bugs to "
+"E<lt>https://translationproject.org/team/E<gt>"
+msgstr ""
+"Сообщение об ошибках перевода true: E<lt"
+">https://translationproject.org/team/E<gt>"
+
+#. type: SH
+#: true.1:31
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "АВТОРСКОЕ ПРАВО"
+
+#. type: Plain text
+#: true.1:34
+msgid ""
+"Copyright \\(co 2018 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2018 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: true.1:37
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#. type: SH
+#: true.1:37
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "СМОТРИТЕ ТАКЖЕ"
+
+#. type: Plain text
+#: true.1:39
+msgid ""
+"Full documentation at: E<lt>https://www.gnu.org/software/coreutils/trueE<gt>"
+msgstr ""
+"Полная документация: E<lt>https://www.gnu.org/software/coreutils/trueE<gt>"
+
+#. type: Plain text
+#: true.1:40
+msgid "or available locally via: info \\(aq(coreutils) true invocation\\(aq"
+msgstr ""
+"или локальная копия командой: info \\(aq(coreutils) true invocation\\(aq"

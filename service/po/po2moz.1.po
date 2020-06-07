@@ -1,0 +1,274 @@
+# Copyright (C) 2020 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# null, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-12 11:43+0300\n"
+"PO-Revision-Date: 2020-01-12 12:00+0300\n"
+"Last-Translator: null\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#. type: TH
+#: po2moz.1:2
+#, no-wrap
+msgid "po2moz"
+msgstr "PO2MOZ"
+
+#. type: TH
+#: po2moz.1:2
+#, no-wrap
+msgid "Translate Toolkit 2.4.0"
+msgstr "Translate Toolkit 2.4.0"
+
+#. type: SH
+#: po2moz.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "НАЗВАНИЕ"
+
+#. type: Plain text
+#: po2moz.1:5
+msgid ""
+"po2moz - Convert Gettext PO localization files to Mozilla .dtd and "
+".properties files."
+msgstr ""
+"po2moz - перевод PO-файлов локализации в файлы Mozilla .dtd и .properties."
+
+#. type: SH
+#: po2moz.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОБЗОР"
+
+#. type: Plain text
+#: po2moz.1:8
+msgid ""
+"B<po2moz >[B<--version>]B< >[B<-h>|B<--help>]B< >[B<--manpage>]B< "
+">[B<--progress >I<PROGRESS>]B< >[B<--errorlevel >I<ERRORLEVEL>]B< "
+">[B<-i>|B<--input>]B< >I<INPUT>B< >[B<-x>|B<--exclude >I<EXCLUDE>]B< "
+">[B<-o>|B<--output>]B< >I<OUTPUT>B< >[B<-t>|B<--template >I<TEMPLATE>]B< "
+">[B<-S>|B<--timestamp>]B< >[B<-l>|B<--locale >I<LOCALE>]B< >[B<--threshold "
+">I<PERCENT>]B< >[B<--fuzzy>]B< >[B<--nofuzzy>]B< >[B<--removeuntranslated>]"
+msgstr ""
+"B<po2moz >[B<--version>]B< >[B<-h>|B<--help>]B< >[B<--manpage>]B< "
+">[B<--progress >I<ПРОГРЕСС>]B< >[B<--errorlevel >I<УРОВЕНЬ>]B< "
+">[B<-i>|B<--input>]B< >I<ВВОД>B< >[B<-x>|B<--exclude >I<ИСКЛЮЧЕНИЕ>]B< "
+">[B<-o>|B<--output>]B< >I<ВЫВОД>B< >[B<-t>|B<--template >I<ШАБЛОН>]B< "
+">[B<-S>|B<--timestamp>]B< >[B<-l>|B<--locale >I<ЛОКАЛЬ>]B< >[B<--threshold "
+">I<ПРОЦЕНТ>]B< >[B<--fuzzy>]B< >[B<--nofuzzy>]B< >[B<--removeuntranslated>]"
+
+#. type: SH
+#: po2moz.1:8
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+#. type: Plain text
+#: po2moz.1:11
+msgid ""
+"See: "
+"http://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/m"
+"oz2po.html "
+"for examples and usage instructions."
+msgstr ""
+"За примерами и руководством к использованию обратитесь к документации:"
+" http://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/"
+"moz2po.html"
+
+#. type: SH
+#: po2moz.1:11
+#, no-wrap
+msgid "OPTIONS"
+msgstr "ПАРАМЕТРЫ"
+
+#. type: TP
+#: po2moz.1:13
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: Plain text
+#: po2moz.1:16
+msgid "show program's version number and exit"
+msgstr "вывод информации о версии программы и выход"
+
+#. type: TP
+#: po2moz.1:16
+#, no-wrap
+msgid "-h/--help"
+msgstr "-h/--help"
+
+#. type: Plain text
+#: po2moz.1:19
+msgid "show this help message and exit"
+msgstr "вывод этого сообщения и выход"
+
+#. type: TP
+#: po2moz.1:19
+#, no-wrap
+msgid "--manpage"
+msgstr "--manpage"
+
+#. type: Plain text
+#: po2moz.1:22
+msgid "output a manpage based on the help"
+msgstr "вывод man-страницы на основе сообщения помощи"
+
+#. type: TP
+#: po2moz.1:22
+#, no-wrap
+msgid "--progress"
+msgstr "--progress"
+
+#. type: Plain text
+#: po2moz.1:25
+msgid "show progress as: dots, none, bar, names, verbose"
+msgstr ""
+"вывод прогресса в следующих видах: точки (dots), ничего (none), полоса (bar),"
+" названия (names), подробно (verbose)"
+
+#. type: TP
+#: po2moz.1:25
+#, no-wrap
+msgid "--errorlevel"
+msgstr "--errorlevel"
+
+#. type: Plain text
+#: po2moz.1:28
+msgid "show errorlevel as: none, message, exception, traceback"
+msgstr ""
+"вывод сообщений об ошибках на следующих уровнях: никак (none), сообщения"
+" (message), исключения (exception), отладка (traceback)"
+
+#. type: TP
+#: po2moz.1:28
+#, no-wrap
+msgid "-i/--input"
+msgstr "-i/--input"
+
+#. type: Plain text
+#: po2moz.1:31
+msgid ""
+"read from INPUT in *, dtd.po, dtd.pot, inc.po, inc.pot, ini.po, ini.pot, "
+"it.po, it.pot, js, lang.po, lang.pot, manifest, properties.po, "
+"properties.pot, rdf formats"
+msgstr ""
+"чтение из ВВОДА в форматах DTD.PO, DTD.POT, INC.PO, INC.POT, INI.PO, INI.POT."
+" IT.PO, IT.POT, JS, LANG.PO, LANG.POT, MANIFEST, PROPERTIES.PO,"
+" PROPERTIES.POT или RDF"
+
+#. type: TP
+#: po2moz.1:31
+#, no-wrap
+msgid "-x/--exclude"
+msgstr "-x/--exclude"
+
+#. type: Plain text
+#: po2moz.1:34
+msgid "exclude names matching EXCLUDE from input paths"
+msgstr "исключение названий, подходящих под ИСКЛЮЧЕНИЕ, из путей ввода"
+
+#. type: TP
+#: po2moz.1:34
+#, no-wrap
+msgid "-o/--output"
+msgstr "-o/--output"
+
+#. type: Plain text
+#: po2moz.1:37
+msgid ""
+"write to OUTPUT in *, dtd, inc, ini, it, js, lang, manifest, properties, rdf "
+"formats"
+msgstr ""
+"запись ВЫВОДА в форматы DTD, INC, INI, IT, JS, LANG, MANIFEST, PROPERTIES или"
+" RDF"
+
+#. type: TP
+#: po2moz.1:37
+#, no-wrap
+msgid "-t/--template"
+msgstr "-t/--template"
+
+#. type: Plain text
+#: po2moz.1:40
+msgid ""
+"read from TEMPLATE in *, dtd, inc, ini, it, js, lang, manifest, properties, "
+"rdf formats"
+msgstr ""
+"чтение из ШАБЛОНА в форматах DTD, INC, INI, IT, JS, LANG, MANIFEST,"
+" PROPERTIES или RDF"
+
+#. type: TP
+#: po2moz.1:40
+#, no-wrap
+msgid "-S/--timestamp"
+msgstr "-S/--timestamp"
+
+#. type: Plain text
+#: po2moz.1:43
+msgid "skip conversion if the output file has newer timestamp"
+msgstr "остановить перевод, если файл для вывода новее по временному штампу"
+
+#. type: TP
+#: po2moz.1:43
+#, no-wrap
+msgid "-l/--locale"
+msgstr "-l/--locale"
+
+#. type: Plain text
+#: po2moz.1:46
+msgid "set output locale (required as this sets the directory names)"
+msgstr "установить локаль вывода (требуется для задания названий каталогов)"
+
+#. type: TP
+#: po2moz.1:46
+#, no-wrap
+msgid "--threshold"
+msgstr "--threshold"
+
+#. type: Plain text
+#: po2moz.1:49
+msgid "only convert files where the translation completion is above PERCENT"
+msgstr "конвертировать файлы, переведённые выше определённого ПРОЦЕНТА"
+
+#. type: TP
+#: po2moz.1:49
+#, no-wrap
+msgid "--fuzzy"
+msgstr "--fuzzy"
+
+#. type: Plain text
+#: po2moz.1:52
+msgid "use translations marked fuzzy"
+msgstr "использовать перевод, помеченный как неточный"
+
+#. type: TP
+#: po2moz.1:52
+#, no-wrap
+msgid "--nofuzzy"
+msgstr "--nofuzzy"
+
+#. type: Plain text
+#: po2moz.1:55
+msgid "don't use translations marked fuzzy (default)"
+msgstr "не использовать перевод, помеченный как неточный (умолчание)"
+
+#. type: TP
+#: po2moz.1:55
+#, no-wrap
+msgid "--removeuntranslated"
+msgstr "--removeuntranslated"
+
+#. type: Plain text
+#: po2moz.1:57
+msgid "remove untranslated strings from output"
+msgstr "убрать непереведённые строки из вывода"

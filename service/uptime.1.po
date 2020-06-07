@@ -1,0 +1,213 @@
+# Copyright (C) 2020 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# null, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-12 12:04+0300\n"
+"PO-Revision-Date: 2020-01-13 20:22+0300\n"
+"Last-Translator: null\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#. type: TH
+#: uptime.1:3
+#, no-wrap
+msgid "UPTIME"
+msgstr "UPTIME"
+
+#. type: TH
+#: uptime.1:3
+#, no-wrap
+msgid "December 2012"
+msgstr "Декабрь 2012"
+
+#. type: TH
+#: uptime.1:3
+#, no-wrap
+msgid "procps-ng"
+msgstr "procps-ng"
+
+#. type: TH
+#: uptime.1:3
+#, no-wrap
+msgid "User Commands"
+msgstr "Команды пользователей"
+
+#. type: SH
+#: uptime.1:4
+#, no-wrap
+msgid "NAME"
+msgstr "НАЗВАНИЕ"
+
+#. type: Plain text
+#: uptime.1:6
+msgid "uptime - Tell how long the system has been running."
+msgstr "uptime - как долго система работает?"
+
+#. type: SH
+#: uptime.1:6
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОБЗОР"
+
+#. type: Plain text
+#: uptime.1:9
+msgid "B<uptime> [I<options>]"
+msgstr "B<uptime> [I<параметры>]"
+
+#. type: SH
+#: uptime.1:9
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+#. type: Plain text
+#: uptime.1:14
+msgid ""
+"B<uptime> gives a one line display of the following information.  The "
+"current time, how long the system has been running, how many users are "
+"currently logged on, and the system load averages for the past 1, 5, and 15 "
+"minutes."
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:17
+msgid ""
+"This is the same information contained in the header line displayed by "
+"B<w>(1)."
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:26
+msgid ""
+"System load averages is the average number of processes that are either in a "
+"runnable or uninterruptable state.  A process in a runnable state is either "
+"using the CPU or waiting to use the CPU.  A process in uninterruptable state "
+"is waiting for some I/O access, eg waiting for disk.  The averages are taken "
+"over the three time intervals.  Load averages are not normalized for the "
+"number of CPUs in a system, so a load average of 1 means a single CPU system "
+"is loaded all the time while on a 4 CPU system it means it was idle 75% of "
+"the time."
+msgstr ""
+
+#. type: SH
+#: uptime.1:26
+#, no-wrap
+msgid "OPTIONS"
+msgstr "ПАРАМЕТРЫ"
+
+#. type: TP
+#: uptime.1:27
+#, no-wrap
+msgid "B<-p>, B<--pretty>"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:30
+msgid "show uptime in pretty format"
+msgstr ""
+
+#. type: TP
+#: uptime.1:30
+#, no-wrap
+msgid "B<-h>, B<--help>"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:33
+msgid "display this help text"
+msgstr ""
+
+#. type: TP
+#: uptime.1:33
+#, no-wrap
+msgid "B<-s>, B<--since>"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:36
+msgid "system up since, in yyyy-mm-dd HH:MM:SS format"
+msgstr ""
+
+#. type: TP
+#: uptime.1:36
+#, no-wrap
+msgid "B<-V>, B<--version>"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:39
+msgid "display version information and exit"
+msgstr ""
+
+#. type: SH
+#: uptime.1:39
+#, no-wrap
+msgid "FILES"
+msgstr ""
+
+#. type: TP
+#: uptime.1:40
+#, no-wrap
+msgid "I</var/run/utmp>"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:43
+msgid "information about who is currently logged on"
+msgstr ""
+
+#. type: TP
+#: uptime.1:43
+#, no-wrap
+msgid "I</proc>"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:46
+msgid "process information"
+msgstr ""
+
+#. type: SH
+#: uptime.1:46
+#, no-wrap
+msgid "AUTHORS"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:56
+msgid ""
+"B<uptime> was written by E<.UR greenfie@gauss.\\:rutgers.\\:edu> Larry "
+"Greenfield E<.UE> and E<.UR johnsonm@sunsite.\\:unc.\\:edu> Michael "
+"K. Johnson E<.UE>"
+msgstr ""
+
+#. type: SH
+#: uptime.1:56
+#, no-wrap
+msgid "SEE ALSO"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:61
+msgid "B<ps>(1), B<top>(1), B<utmp>(5), B<w>(1)"
+msgstr ""
+
+#. type: SH
+#: uptime.1:61
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr ""
+
+#. type: Plain text
+#: uptime.1:64
+msgid "Please send bug reports to E<.UR procps@freelists.org> E<.UE>"
+msgstr ""

@@ -1,0 +1,191 @@
+# Copyright (C) 2020 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# null, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-11 15:46+0300\n"
+"PO-Revision-Date: 2020-01-11 15:55+0300\n"
+"Last-Translator: null\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#. type: TH
+#: 2to3-2.7.1:2
+#, no-wrap
+msgid "2TO3-2.7"
+msgstr "2TO3-2.7"
+
+#. type: TH
+#: 2to3-2.7.1:2
+#, no-wrap
+msgid "January 2012"
+msgstr "Январь 2012"
+
+#. type: TH
+#: 2to3-2.7.1:2
+#, no-wrap
+msgid "2to3-2.7 2.7"
+msgstr "2to3-2.7 2.7"
+
+#. type: TH
+#: 2to3-2.7.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "Команды пользователей"
+
+#. type: SH
+#: 2to3-2.7.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "НАЗВАНИЕ"
+
+#. type: Plain text
+#: 2to3-2.7.1:5
+msgid "2to3-2.7 - Python2 to Python3 converter"
+msgstr "2to3-2.7 - конвертер Python2 в Python3"
+
+#. type: SH
+#: 2to3-2.7.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОБЗОР"
+
+#. type: Plain text
+#: 2to3-2.7.1:8
+msgid "B<2to3> [I<options>] I<file|dir >..."
+msgstr "B<2to3> [I<параметры>] I<файл|каталог >..."
+
+#. type: SH
+#: 2to3-2.7.1:8
+#, no-wrap
+msgid "OPTIONS"
+msgstr "ПАРАМЕТРЫ"
+
+#. type: TP
+#: 2to3-2.7.1:9
+#, no-wrap
+msgid "B<-h>, B<--help>"
+msgstr "B<-h>, B<--help>"
+
+#. type: Plain text
+#: 2to3-2.7.1:12
+msgid "show this help message and exit"
+msgstr "вывод этого сообщения и выход"
+
+#. type: TP
+#: 2to3-2.7.1:12
+#, no-wrap
+msgid "B<-d>, B<--doctests_only>"
+msgstr "B<-d>, B<--doctests_only>"
+
+#. type: Plain text
+#: 2to3-2.7.1:15
+msgid "Fix up doctests only"
+msgstr "Исправить лишь doctest'ы"
+
+#. type: TP
+#: 2to3-2.7.1:15
+#, no-wrap
+msgid "B<-f> FIX, B<--fix>=I<FIX>"
+msgstr "B<-f> FIX, B<--fix>=I<FIX>"
+
+#. type: Plain text
+#: 2to3-2.7.1:18
+msgid "Each FIX specifies a transformation; default: all"
+msgstr "Каждый FIX указывает трансформацию; умолчание: all (все)"
+
+#. type: TP
+#: 2to3-2.7.1:18
+#, no-wrap
+msgid "B<-j> PROCESSES, B<--processes>=I<PROCESSES>"
+msgstr "B<-j> PROCESSES, B<--processes>=I<PROCESSES>"
+
+#. type: Plain text
+#: 2to3-2.7.1:21
+msgid "Run 2to3 concurrently"
+msgstr "Запустить 2to3 параллельно"
+
+#. type: TP
+#: 2to3-2.7.1:21
+#, no-wrap
+msgid "B<-x> NOFIX, B<--nofix>=I<NOFIX>"
+msgstr "B<-x> NOFIX, B<--nofix>=I<NOFIX>"
+
+#. type: Plain text
+#: 2to3-2.7.1:24
+msgid "Prevent a transformation from being run"
+msgstr "Предотвратить запуск трансформации"
+
+#. type: TP
+#: 2to3-2.7.1:24
+#, no-wrap
+msgid "B<-l>, B<--list-fixes>"
+msgstr "B<-l>, B<--list-fixes>"
+
+#. type: Plain text
+#: 2to3-2.7.1:27
+msgid "List available transformations"
+msgstr "Вывести доступные трансформации"
+
+#. type: TP
+#: 2to3-2.7.1:27
+#, no-wrap
+msgid "B<-p>, B<--print-function>"
+msgstr "B<-p>, B<--print-function>"
+
+#. type: Plain text
+#: 2to3-2.7.1:30
+msgid "Modify the grammar so that print() is a function"
+msgstr "Изменить грамматику, чтобы print() стал функцией"
+
+#. type: TP
+#: 2to3-2.7.1:30
+#, no-wrap
+msgid "B<-v>, B<--verbose>"
+msgstr "B<-v>, B<--verbose>"
+
+#. type: Plain text
+#: 2to3-2.7.1:33
+msgid "More verbose logging"
+msgstr "Более подробный вывод"
+
+#. type: TP
+#: 2to3-2.7.1:33
+#, no-wrap
+msgid "B<--no-diffs>"
+msgstr "B<--no-diffs>"
+
+#. type: Plain text
+#: 2to3-2.7.1:36
+msgid "Don't show diffs of the refactoring"
+msgstr "Не выводить сравнение оригинала с результатом рефракторинга"
+
+#. type: TP
+#: 2to3-2.7.1:36
+#, no-wrap
+msgid "B<-w>, B<--write>"
+msgstr "B<-w>, B<--write>"
+
+#. type: Plain text
+#: 2to3-2.7.1:39
+msgid "Write back modified files"
+msgstr "Сохранить модифицированные файлы"
+
+#. type: TP
+#: 2to3-2.7.1:39
+#, no-wrap
+msgid "B<-n>, B<--nobackups>"
+msgstr "B<-n>, B<--nobackups>"
+
+#. type: Plain text
+#: 2to3-2.7.1:41
+msgid "Don't write backups for modified files"
+msgstr "Не сохранять модифицированных файлов"

@@ -1,0 +1,653 @@
+# Copyright (C) 2020 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# null, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-09 22:01+0300\n"
+"PO-Revision-Date: 2020-01-11 15:32+0300\n"
+"Last-Translator: null\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#. type: TH
+#: [.1:2
+#, no-wrap
+msgid "TEST"
+msgstr "TEST"
+
+#. type: TH
+#: [.1:2
+#, no-wrap
+msgid "September 2019"
+msgstr "Сентябрь 2019"
+
+#. type: TH
+#: [.1:2
+#, no-wrap
+msgid "GNU coreutils 8.30"
+msgstr "GNU coreutils 8.30"
+
+#. type: TH
+#: [.1:2
+#, no-wrap
+msgid "User Commands"
+msgstr "Команды пользователей"
+
+#. type: SH
+#: [.1:3
+#, no-wrap
+msgid "NAME"
+msgstr "НАЗВАНИЕ"
+
+#. type: Plain text
+#: [.1:5
+msgid "test - check file types and compare values"
+msgstr "test - проверка типа файла и сравнение значений"
+
+#. type: SH
+#: [.1:5
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОБЗОР"
+
+#. type: Plain text
+#: [.1:8
+msgid "B<test> I<EXPRESSION>"
+msgstr "B<test> I<ВЫРАЖЕНИЕ>"
+
+#. type: Plain text
+#: [.1:10
+msgid "B<test>"
+msgstr "B<test>"
+
+#.  \& tells doclifter the brackets are literal (Bug#31803).
+#. type: Plain text
+#: [.1:15
+msgid "B<[\\&> I<EXPRESSION> B<]\\&>"
+msgstr "B<[\\&> I<ВЫРАЖЕНИЕ> B<]\\&>"
+
+#. type: Plain text
+#: [.1:17
+msgid "B<[\\& ]\">"
+msgstr "B<[\\& ]\">"
+
+#. type: Plain text
+#: [.1:20
+msgid "B<[\\&> I<OPTION>"
+msgstr "B<[\\&> I<ПАРАМЕТР>"
+
+#. type: SH
+#: [.1:20
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИСАНИЕ"
+
+#. type: Plain text
+#: [.1:24
+msgid "Exit with the status determined by EXPRESSION."
+msgstr "Завершение со статусом, определённым ВЫРАЖЕНИЕМ."
+
+#. type: TP
+#: [.1:24
+#, no-wrap
+msgid "B<--help>"
+msgstr "B<--help>"
+
+#. type: Plain text
+#: [.1:27
+msgid "display this help and exit"
+msgstr "вывод этого сообщения и выход"
+
+#. type: TP
+#: [.1:27
+#, no-wrap
+msgid "B<--version>"
+msgstr "B<--version>"
+
+#. type: Plain text
+#: [.1:30
+msgid "output version information and exit"
+msgstr "вывод информации о версии и выход"
+
+#. type: Plain text
+#: [.1:33
+msgid ""
+"An omitted EXPRESSION defaults to false.  Otherwise, EXPRESSION is true or "
+"false and sets exit status.  It is one of:"
+msgstr ""
+"Неуказанное ВЫРАЖЕНИЕ по умолчанию ложно. Иначе ВЫРАЖЕНИЕ верно или ложно и"
+" задаёт статус завершения. Оно может иметь следующий вид:"
+
+#. type: TP
+#: [.1:33
+#, no-wrap
+msgid "( EXPRESSION )"
+msgstr "( ВЫРАЖЕНИЕ )"
+
+#. type: Plain text
+#: [.1:36
+msgid "EXPRESSION is true"
+msgstr "ВЫРАЖЕНИЕ верно"
+
+#. type: TP
+#: [.1:36
+#, no-wrap
+msgid "! EXPRESSION"
+msgstr "! ВЫРАЖЕНИЕ"
+
+#. type: Plain text
+#: [.1:39
+msgid "EXPRESSION is false"
+msgstr "ВЫРАЖЕНИЕ ложно"
+
+#. type: TP
+#: [.1:39
+#, no-wrap
+msgid "EXPRESSION1 B<-a> EXPRESSION2"
+msgstr "ВЫРАЖЕНИЕ1 B<-a> ВЫРАЖЕНИЕ2"
+
+#. type: Plain text
+#: [.1:42
+msgid "both EXPRESSION1 and EXPRESSION2 are true"
+msgstr "ВЫРАЖЕНИЕ1 и ВЫРАЖЕНИЕ2 верны"
+
+#. type: TP
+#: [.1:42
+#, no-wrap
+msgid "EXPRESSION1 B<-o> EXPRESSION2"
+msgstr "ВЫРАЖЕНИЕ1 B<-o> ВЫРАЖЕНИЕ2"
+
+#. type: Plain text
+#: [.1:45
+msgid "either EXPRESSION1 or EXPRESSION2 is true"
+msgstr "верно или ВЫРАЖЕНИЕ1, или ВЫРАЖЕНИЕ2"
+
+#. type: TP
+#: [.1:45
+#, no-wrap
+msgid "B<-n> STRING"
+msgstr "B<-n> СТРОКА"
+
+#. type: Plain text
+#: [.1:48
+msgid "the length of STRING is nonzero"
+msgstr "длина СТРОКИ не равна нулю"
+
+#. type: TP
+#: [.1:48
+#, no-wrap
+msgid "STRING"
+msgstr "STRING"
+
+#. type: Plain text
+#: [.1:51
+msgid "equivalent to B<-n> STRING"
+msgstr "равнозначно B<-n> СТРОКА"
+
+#. type: TP
+#: [.1:51
+#, no-wrap
+msgid "B<-z> STRING"
+msgstr "B<-z> STRING"
+
+#. type: Plain text
+#: [.1:54
+msgid "the length of STRING is zero"
+msgstr "длина СТРОКИ равняется нулю"
+
+#. type: TP
+#: [.1:54
+#, no-wrap
+msgid "STRING1 = STRING2"
+msgstr "СТРОКА1 = СТРОКА2"
+
+#. type: Plain text
+#: [.1:57
+msgid "the strings are equal"
+msgstr "строки равны"
+
+#. type: TP
+#: [.1:57
+#, no-wrap
+msgid "STRING1 != STRING2"
+msgstr "СТРОКА1 != СТРОКА2"
+
+#. type: Plain text
+#: [.1:60
+msgid "the strings are not equal"
+msgstr "строки не равны"
+
+#. type: TP
+#: [.1:60
+#, no-wrap
+msgid "INTEGER1 B<-eq> INTEGER2"
+msgstr "ЧИСЛО1 B<-eq> ЧИСЛО2"
+
+#. type: Plain text
+#: [.1:63
+msgid "INTEGER1 is equal to INTEGER2"
+msgstr "ЧИСЛО1 равно ЧИСЛУ2"
+
+#. type: TP
+#: [.1:63
+#, no-wrap
+msgid "INTEGER1 B<-ge> INTEGER2"
+msgstr "ЧИСЛО1 B<-ge> ЧИСЛО2"
+
+#. type: Plain text
+#: [.1:66
+msgid "INTEGER1 is greater than or equal to INTEGER2"
+msgstr "ЧИСЛО1 больше или равно ЧИСЛУ2"
+
+#. type: TP
+#: [.1:66
+#, no-wrap
+msgid "INTEGER1 B<-gt> INTEGER2"
+msgstr "ЧИСЛО1 B<-gt> ЧИСЛО2"
+
+#. type: Plain text
+#: [.1:69
+msgid "INTEGER1 is greater than INTEGER2"
+msgstr "ЧИСЛО1 больше ЧИСЛА2"
+
+#. type: TP
+#: [.1:69
+#, no-wrap
+msgid "INTEGER1 B<-le> INTEGER2"
+msgstr "ЧИСЛО1 B<-le> ЧИСЛО2"
+
+#. type: Plain text
+#: [.1:72
+msgid "INTEGER1 is less than or equal to INTEGER2"
+msgstr "ЧИСЛО1 меньше или равно ЧИСЛУ2"
+
+#. type: TP
+#: [.1:72
+#, no-wrap
+msgid "INTEGER1 B<-lt> INTEGER2"
+msgstr "ЧИСЛО1 B<-lt> ЧИСЛО2"
+
+#. type: Plain text
+#: [.1:75
+msgid "INTEGER1 is less than INTEGER2"
+msgstr "ЧИСЛО1 меньше ЧИСЛА2\t"
+
+#. type: TP
+#: [.1:75
+#, no-wrap
+msgid "INTEGER1 B<-ne> INTEGER2"
+msgstr "ЧИСЛО1 B<-ne> ЧИСЛО2"
+
+#. type: Plain text
+#: [.1:78
+msgid "INTEGER1 is not equal to INTEGER2"
+msgstr "ЧИСЛО1 не равно ЧИСЛУ2"
+
+#. type: TP
+#: [.1:78
+#, no-wrap
+msgid "FILE1 B<-ef> FILE2"
+msgstr "ФАЙЛ1 B<-ef> ФАЙЛ2"
+
+#. type: Plain text
+#: [.1:81
+msgid "FILE1 and FILE2 have the same device and inode numbers"
+msgstr "ФАЙЛ1 и ФАЙЛ1 имеют схожее устройство и индексный дескриптор (inode)"
+
+#. type: TP
+#: [.1:81
+#, no-wrap
+msgid "FILE1 B<-nt> FILE2"
+msgstr "ФАЙЛ1 B<-nt> ФАЙЛ2"
+
+#. type: Plain text
+#: [.1:84
+msgid "FILE1 is newer (modification date) than FILE2"
+msgstr "ФАЙЛ1 новее (по дате изменения) ФАЙЛА2"
+
+#. type: TP
+#: [.1:84
+#, no-wrap
+msgid "FILE1 B<-ot> FILE2"
+msgstr "ФАЙЛ1 B<-ot> ФАЙЛ2"
+
+#. type: Plain text
+#: [.1:87
+msgid "FILE1 is older than FILE2"
+msgstr "ФАЙЛ1 старше ФАЙЛА2"
+
+#. type: TP
+#: [.1:87
+#, no-wrap
+msgid "B<-b> FILE"
+msgstr "B<-b> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:90
+msgid "FILE exists and is block special"
+msgstr "ФАЙЛ существует и является блочным"
+
+#. type: TP
+#: [.1:90
+#, no-wrap
+msgid "B<-c> FILE"
+msgstr "B<-c> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:93
+msgid "FILE exists and is character special"
+msgstr "ФАЙЛ существует и является символьным"
+
+#. type: TP
+#: [.1:93
+#, no-wrap
+msgid "B<-d> FILE"
+msgstr "B<-d> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:96
+msgid "FILE exists and is a directory"
+msgstr "ФАЙЛ существует и является каталогом"
+
+#. type: TP
+#: [.1:96
+#, no-wrap
+msgid "B<-e> FILE"
+msgstr "B<-e> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:99
+msgid "FILE exists"
+msgstr "ФАЙЛ существует"
+
+#. type: TP
+#: [.1:99
+#, no-wrap
+msgid "B<-f> FILE"
+msgstr "B<-f> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:102
+msgid "FILE exists and is a regular file"
+msgstr "ФАЙЛ существует и является обычным файлом"
+
+#. type: TP
+#: [.1:102
+#, no-wrap
+msgid "B<-g> FILE"
+msgstr "B<-g> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:105
+msgid "FILE exists and is set-group-ID"
+msgstr "ФАЙЛ существует и на нём установлен флаг setgid"
+
+#. type: TP
+#: [.1:105
+#, no-wrap
+msgid "B<-G> FILE"
+msgstr "B<-G> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:108
+msgid "FILE exists and is owned by the effective group ID"
+msgstr "ФАЙЛ существует и им владеет действующий GID"
+
+#. type: TP
+#: [.1:108
+#, no-wrap
+msgid "B<-h> FILE"
+msgstr "B<-h> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:111
+msgid "FILE exists and is a symbolic link (same as B<-L>)"
+msgstr "ФАЙЛ существует и является символической ссылкой (равнозначно B<-L>)"
+
+#. type: TP
+#: [.1:111
+#, no-wrap
+msgid "B<-k> FILE"
+msgstr "B<-k> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:114
+msgid "FILE exists and has its sticky bit set"
+msgstr "ФАЙЛ существует и на нём установлен бит sticky"
+
+#. type: TP
+#: [.1:114
+#, no-wrap
+msgid "B<-L> FILE"
+msgstr "B<-L> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:117
+msgid "FILE exists and is a symbolic link (same as B<-h>)"
+msgstr "ФАЙЛ существует и является символической ссылкой (равнозначно B<-h>)"
+
+#. type: TP
+#: [.1:117
+#, no-wrap
+msgid "B<-O> FILE"
+msgstr "B<-O> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:120
+msgid "FILE exists and is owned by the effective user ID"
+msgstr "ФАЙЛ существует и им владеет текущий UID"
+
+#. type: TP
+#: [.1:120
+#, no-wrap
+msgid "B<-p> FILE"
+msgstr "B<-p> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:123
+msgid "FILE exists and is a named pipe"
+msgstr "ФАЙЛ существует и является именованным каналом"
+
+#. type: TP
+#: [.1:123
+#, no-wrap
+msgid "B<-r> FILE"
+msgstr "B<-r> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:126
+msgid "FILE exists and read permission is granted"
+msgstr "ФАЙЛ существует и доступен для чтения"
+
+#. type: TP
+#: [.1:126
+#, no-wrap
+msgid "B<-s> FILE"
+msgstr "B<-s> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:129
+msgid "FILE exists and has a size greater than zero"
+msgstr "ФАЙЛ существует и по размеру больше нуля"
+
+#. type: TP
+#: [.1:129
+#, no-wrap
+msgid "B<-S> FILE"
+msgstr "B<-S> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:132
+msgid "FILE exists and is a socket"
+msgstr "ФАЙЛ существует и является сокетом"
+
+#. type: TP
+#: [.1:132
+#, no-wrap
+msgid "B<-t> FD"
+msgstr "B<-t> FD"
+
+#. type: Plain text
+#: [.1:135
+msgid "file descriptor FD is opened on a terminal"
+msgstr "файловый дескриптор FD открыт в терминале"
+
+#. type: TP
+#: [.1:135
+#, no-wrap
+msgid "B<-u> FILE"
+msgstr "B<-u> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:138
+msgid "FILE exists and its set-user-ID bit is set"
+msgstr "ФАЙЛ существует и на нём установлен флаг setuid"
+
+#. type: TP
+#: [.1:138
+#, no-wrap
+msgid "B<-w> FILE"
+msgstr "B<-w> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:141
+msgid "FILE exists and write permission is granted"
+msgstr "ФАЙЛ существует и доступен для записи"
+
+#. type: TP
+#: [.1:141
+#, no-wrap
+msgid "B<-x> FILE"
+msgstr "B<-x> ФАЙЛ"
+
+#. type: Plain text
+#: [.1:144
+msgid "FILE exists and execute (or search) permission is granted"
+msgstr "ФАЙЛ существует и доступен для исполнения (или поиска)"
+
+#. type: Plain text
+#: [.1:148
+msgid ""
+"Except for B<-h> and B<-L>, all FILE-related tests dereference symbolic "
+"links.  Beware that parentheses need to be escaped (e.g., by backslashes) "
+"for shells.  INTEGER may also be B<-l> STRING, which evaluates to the length "
+"of STRING."
+msgstr ""
+"За исключением  B<-h> и B<-L> все проверки, которые относятся к файлам,"
+" переходят по символическим ссылкам. "
+"Помните, что круглые скобки необходимо экранировать (обратной косой чертой)"
+" для оболочки командной строки. "
+"ЧИСЛО может быть B<-l> СТРОКОЙ, что означает длину строки."
+
+#. type: Plain text
+#: [.1:151
+msgid ""
+"NOTE: Binary B<-a> and B<-o> are inherently ambiguous.  Use 'test EXPR1 && "
+"test EXPR2' or 'test EXPR1 || test EXPR2' instead."
+msgstr ""
+"ВНИМАНИЕ: B<-a> и B<-o> по своей сути неоднозначны. Вместо них используйте"
+" 'test ВЫРАЖЕНИЕ1 && test ВЫРАЖЕНИЕ2' или 'test ВЫРАЖЕНИЕ1 || test"
+" ВЫРАЖЕНИЕ2'."
+
+#. type: Plain text
+#: [.1:154
+msgid ""
+"NOTE: [ honors the B<--help> and B<--version> options, but test does not.  "
+"test treats each of those as it treats any other nonempty STRING."
+msgstr ""
+"ВНИМАНИЕ: [ учитывает параметры B<--help> и B<--version>, в то время как для"
+" test это, как и вообще всё - непустая СТРОКА."
+
+#. type: Plain text
+#: [.1:158
+msgid ""
+"NOTE: your shell may have its own version of test and/or [, which usually "
+"supersedes the version described here.  Please refer to your shell's "
+"documentation for details about the options it supports."
+msgstr ""
+"ВНИМАНИЕ: в вашу оболочку командной строки может быть встроена своя версия"
+" test и/или [, обычно заменяющая описанную здесь. Обратитесь к документации"
+" вашей оболочки за информацией о поддерживаемых [ параметрах."
+
+#. type: SH
+#: [.1:158
+#, no-wrap
+msgid "AUTHOR"
+msgstr "АВТОР"
+
+#. type: Plain text
+#: [.1:160
+msgid "Written by Kevin Braunsdorf and Matthew Bradburn."
+msgstr "Написано Kevin Braunsdorf и Matthew Bradburn."
+
+#. type: SH
+#: [.1:160
+#, no-wrap
+msgid "REPORTING BUGS"
+msgstr "СООБЩЕНИЕ ОБ ОШИБКАХ"
+
+#. type: Plain text
+#: [.1:162
+msgid ""
+"GNU coreutils online help: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+msgstr ""
+"Онлайн-помощь GNU coreutils: E<lt>https://www.gnu.org/software/coreutils/E<gt>"
+
+#. type: Plain text
+#: [.1:164
+msgid ""
+"Report [ translation bugs to E<lt>https://translationproject.org/team/E<gt>"
+msgstr ""
+"Сообщение об ошибках перевода [: E<lt>https://translationproject.org/team/E<gt"
+">"
+
+#. type: SH
+#: [.1:164
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "АВТОРСКОЕ ПРАВО"
+
+#. type: Plain text
+#: [.1:167
+msgid ""
+"Copyright \\(co 2018 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+msgstr ""
+"Copyright \\(co 2018 Free Software Foundation, Inc.  License GPLv3+: GNU GPL "
+"version 3 or later E<lt>https://gnu.org/licenses/gpl.htmlE<gt>."
+
+#. type: Plain text
+#: [.1:170
+msgid ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"This is free software: you are free to change and redistribute it.  There is "
+"NO WARRANTY, to the extent permitted by law."
+
+#. type: SH
+#: [.1:170
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "СМОТРИТЕ ТАКЖЕ"
+
+#. type: Plain text
+#: [.1:172
+msgid ""
+"Full documentation at: E<lt>https://www.gnu.org/software/coreutils/[E<gt>"
+msgstr ""
+"Полная документация: E<lt>https://www.gnu.org/software/coreutils/[E<gt>"
+
+#. type: Plain text
+#: [.1:173
+msgid "or available locally via: info \\(aq(coreutils) test invocation\\(aq"
+msgstr ""
+"или локальная копия командой: info \\(aq(coreutils) test invocation\\(aq"
