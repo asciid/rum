@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "Ubuntu Mono";
+	src: url("fonts/UbuntuMono-B.ttf");
+}
+
+body {
+	font-family: "Ubuntu Mono";
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 25px 20px 0px 20px;
+	background-image: 'logo.gif';
+	background-repeat: no-repeat;
+}
+
+h1, h2 {
+	font-size: 23px;
+	font-weight: bolder;
+}
+
+pre {
+	font-weight: bolder;
+	background-color: black;
+	color: #0F0;
+	border: solid thin white;
+	padding: 20px;
+}
+
+#page a {
+	color: #0F0;
+}
+
+#title {
+	margin-bottom: 5px;
+}
+
+#left_title {
+	text-align: left;
+}
+
+#center_title, #date {
+	text-align: center;
+}
+
+#right_title {
+	text-align: right;
+}
+
+#navbar-logo {
+	text-align: center;
+}
+
+.param {
+	font-weight: bolder;
+	color: #0F0;
+}
+
+.text {
+	padding: 0px 30px 0px 30px;
+}
+
+#navbar-links {
+	margin-bottom: 15px;
+}
+
+.navbar_entry {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	width: 25%;
+	padding: 5px;
+	margin-top: 18px;
+}
+
+.navbar_entry a:link {
+	background-color: white;
+	color: black;
+	border: 1px black solid;
+}
+
+.navbar_entry a:hover {
+	background-color: gray;
+	text-decoration: none;
+}
